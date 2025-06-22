@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#4591A9"
+    tools:context=".UserAccountActivity">
+
+
+    <TextView
+        android:id="@+id/welcomeUserTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight Tracker"
+        android:layout_alignParentTop="true"
+        android:textSize="20sp"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:id="@+id/trackWeightLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/currentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Weight"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="80dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/currentWeightTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[VALUE]"
+            android:textSize="30sp"
+            android:layout_marginTop="170dp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/newWeightButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Enter New Weight"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/weightCalenderButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newWeightButton"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Weight Calender"
+        android:padding="10dp" />
+
+
+</RelativeLayout>

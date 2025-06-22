@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weight Tracker Jasper Conneway</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="require_sms">Notifications require permission to send via SMS messaging.</string>
+    <string name="click_on">Click notifications ON to receive reminders to enter daily weight, and when goal weight has been obtained.</string>
+</resources>
