@@ -10,7 +10,7 @@ through XAMPP, which was separated from the Android Studio app. I created PHP fi
 theme to it. A user can add weight, update weight, and delete weight. The user’s home screen shows them the current weight (most recent entered). If the user has not added weight, it shows “N/A”.
 
 I did meet the course outcomes I planned to meet with this enhancement. The course outcomes I met were 4 and 5:
-- Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-
+- Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry
 specific goals.
 
 - Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data 
